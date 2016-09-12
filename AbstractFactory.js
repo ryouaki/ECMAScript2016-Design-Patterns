@@ -4,10 +4,10 @@ class AbstractFactory {
     constructor() {
     }
 
-    createProductA (product) {
+    createProductA(product) {
     }
 
-    createProductB (product) {
+    createProductB(product) {
     }
 }
 
@@ -17,12 +17,12 @@ class ConcreteFactory1 extends AbstractFactory {
         console.log("ConcreteFactory1 class created");
     }
 
-    createProductA (product) {
+    createProductA(product) {
         console.log('ConcreteFactory1 createProductA')
         return new ProductA1()
     }
 
-    createProductB (product) {
+    createProductB(product) {
         console.log('ConcreteFactory1 createProductB')
         return new ProductB1()
     }
@@ -34,12 +34,12 @@ class ConcreteFactory2 extends AbstractFactory {
         console.log("ConcreteFactory2 class created");
     }
 
-    createProductA (product) {
+    createProductA(product) {
         console.log('ConcreteFactory2 createProductA')
         return new ProductA2()
     }
 
-    createProductB (product) {
+    createProductB(product) {
         console.log('ConcreteFactory2 createProductB')
         return new ProductB2()
     }
@@ -54,7 +54,6 @@ class AbstractProductB {
     constructor() {
     }
 }
-
 
 class ProductA1 extends AbstractProductA {
     constructor() {
@@ -83,7 +82,6 @@ class ProductB2 extends AbstractProductB {
         console.log('ProductB2 created')
     }
 }
-
 
 var factory1 = new ConcreteFactory1()
 var productB1 = factory1.createProductB()

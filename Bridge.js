@@ -5,9 +5,9 @@ class Abstraction {
         console.log('Abstraction Class created');
     }
 
-    Operation() {
-        console.log('Abstraction.Operation invoked');
-        this.imp.OperationImp();
+    operation() {
+        console.log('Abstraction.operation invoked');
+        this.imp.operationImp();
     }
 }
 
@@ -28,8 +28,8 @@ class Implementor {
         console.log('Implementor Class created');
     }
 
-    OperationImp() {
-        console.log('Implementor.OperationImp invoked');
+    operationImp() {
+        console.log('Implementor.operationImp invoked');
     }
 }
 
@@ -39,8 +39,8 @@ class ConcreteImplementorA extends Implementor {
         console.log('ConcreteImplementorA Class created');
     }
 
-    OperationImp() {
-        console.log('ConcreteImplementorA.OperationImp invoked');
+    operationImp() {
+        console.log('ConcreteImplementorA.operationImp invoked');
     }
 }
 
@@ -50,13 +50,13 @@ class ConcreteImplementorB extends Implementor {
         console.log('ConcreteImplementorB Class created');
     }
 
-    OperationImp() {
-        console.log('ConcreteImplementorB.OperationImp invoked');
+    operationImp() {
+        console.log('ConcreteImplementorB.operationImp invoked');
     }
 }
 
 var abstraction = new RefinedAbstraction();
 abstraction.setImp(new ConcreteImplementorA());
-abstraction.Operation();
+abstraction.operation();
 abstraction.setImp(new ConcreteImplementorB());
-abstraction.Operation();
+abstraction.operation();

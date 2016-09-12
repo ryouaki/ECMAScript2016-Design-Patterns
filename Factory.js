@@ -18,13 +18,13 @@ class Creator {
         console.log('Creator created');
     }
 
-    FactoryMethod() {
-        console.log('Creator.FactoryMethod created');
+    factoryMethod() {
+        console.log('Creator.factoryMethod created');
     }
 
-    AnOperation() {
-        console.log('Creator.AnOperation created');
-        this.product = this.FactoryMethod();
+    anOperation() {
+        console.log('Creator.anOperation created');
+        this.product = this.factoryMethod();
         console.log(this.product instanceof ConcreteProduct);
     }
 }
@@ -36,10 +36,10 @@ class ConcreteCreator extends Creator {
         console.log('ConcreteCreator created')
     }
 
-    FactoryMethod() {
+    factoryMethod() {
         return new ConcreteProduct();
     }
 }
 
 var factory = new ConcreteCreator();
-factory.AnOperation();
+factory.anOperation();

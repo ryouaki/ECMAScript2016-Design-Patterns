@@ -40,7 +40,7 @@ class Director {
         console.log("Director class created");
     }
 
-    Construct() {
+    construct() {
         console.log("Director.Construct created");
         for (var prodName in this.structure) {
             let builder = new ConcreteBuilder();
@@ -51,4 +51,4 @@ class Director {
 }
 
 let director = new Director();
-director.Construct();
+director.construct();

@@ -13,7 +13,7 @@ class Singleton {
 let ob1 = new Singleton("one");
 let ob2 = new Singleton("two");
 let ob3 = new Singleton("Three");
-ob2.init = '111';
+ob2.init = 'Object flg';
 
 console.log(ob1 === ob2);
 console.log(ob1 === ob3);

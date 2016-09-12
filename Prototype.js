@@ -37,6 +37,7 @@ class ConcretePrototype2 extends Prototype {
     constructor() {
         super();
         console.log("ConcretePrototype2 created");
+        this.feature = "feature 2"
     }
 
     clone() {

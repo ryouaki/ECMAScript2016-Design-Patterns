@@ -21,6 +21,8 @@
 - [Factory](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Factory.js)
 - [Prototype](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Prototype.js)
 
-
 # 参考
 [es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)
+
+# LICENCE
+MIT

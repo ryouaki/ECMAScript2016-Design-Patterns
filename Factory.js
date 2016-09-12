@@ -41,5 +41,5 @@ class ConcreteCreator extends Creator {
     }
 }
 
-var factory = new ConcreteCreator()
-factory.AnOperation()
+var factory = new ConcreteCreator();
+factory.AnOperation();

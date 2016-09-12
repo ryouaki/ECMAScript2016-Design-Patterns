@@ -44,16 +44,11 @@ Nodejs v6.3.0+
 - Visitor（访问者模式）：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
 
 # DemoCode:
-- Singleton（单例模式）：保证一个类仅有一个实例，并提供一个访问它的全局访问点。 单例模式是最简单的设计模式之一，但是对于Java的开发者来说，它却有很多缺陷。在九月的专栏中，David Geary探讨了单例模式以及在面对多线程（multi-threading）、类装载器（class loaders）和序列化（serialization）时如何处理这些缺陷。
-  - [Signleton](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/Signleton.js)
-- Abstract Factory（抽象工厂模式）：提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。  
-  - [AbstractFactory](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/AbstractFactory.js)
-- Builder（建造者模式）：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。  
-  - [Builder](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Builder.js)
-- Factory Method（工厂模式）：定义一个用于创建对象的接口，让子类决定将哪一个类实例化。Factory Method使一个类的实例化延迟到其子类。  
-  - [Factory](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Factory.js)
-- Prototype（原型模式）：用原型实例指定创建对象的种类，并且通过拷贝这个原型来创建新的对象。  
-  - [Prototype](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Prototype.js)
+- [Signleton](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/Signleton.js)（单例模式）：保证一个类仅有一个实例，并提供一个访问它的全局访问点。 单例模式是最简单的设计模式之一，但是对于Java的开发者来说，它却有很多缺陷。在九月的专栏中，David Geary探讨了单例模式以及在面对多线程（multi-threading）、类装载器（class loaders）和序列化（serialization）时如何处理这些缺陷。  
+- [AbstractFactory](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/AbstractFactory.js)（抽象工厂模式）：提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。  
+- [Builder](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Builder.js)（建造者模式）：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。  
+- [Factory](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Factory.js)（工厂模式）：定义一个用于创建对象的接口，让子类决定将哪一个类实例化。Factory Method使一个类的实例化延迟到其子类。  
+- [Prototype](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Prototype.js)（原型模式）：用原型实例指定创建对象的种类，并且通过拷贝这个原型来创建新的对象。
 
 # 参考
 [es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)

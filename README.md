@@ -21,7 +21,6 @@ Nodejs v6.3.0+
 按字典序排列简介如下。
 - Chain of Responsibility（责任链模式）：为解除请求的发送者和接收者之间耦合，而使多个对象都有机会处理这个请求。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它。
 - Command（命令模式）：将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可取消的操作。
-- Flyweight（享元模式）：运用共享技术有效地支持大量细粒度的对象。
 - Interpreter（解析器模式）：给定一个语言, 定义它的文法的一种表示，并定义一个解释器, 该解释器使用该表示来解释语言中的句子。
 - Iterator（迭代器模式）：提供一种方法顺序访问一个聚合对象中各个元素，而又不需暴露该对象的内部表示。
 - Mediator（中介模式）：用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
@@ -45,6 +44,7 @@ Nodejs v6.3.0+
 - [Composite](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Composite.js)（组合模式）：将对象组合成树形结构以表示“部分-整体”的层次结构。它使得客户对单个对象和复合对象的使用具有一致性。
 - [Decorator](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Decorator.js)（装饰模式）：动态地给一个对象添加一些额外的职责。就扩展功能而言， 它比生成子类方式更为灵活。
 - [Facade](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Facade.js)（外观模式）：为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
+- [Flyweight](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Flyweight.js)（享元模式）：运用共享技术有效地支持大量细粒度的对象。
 
 # 参考
 [es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)

@@ -50,6 +50,10 @@ Nodejs v6.3.0+
 - [Factory](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Factory.js)（工厂模式）：定义一个用于创建对象的接口，让子类决定将哪一个类实例化。Factory Method使一个类的实例化延迟到其子类。  
 - [Prototype](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Prototype.js)（原型模式）：用原型实例指定创建对象的种类，并且通过拷贝这个原型来创建新的对象。
 
+- [Adapter](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Adapter.js)（适配器模式）：将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+- [Bridge](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Bridge.js)（桥接模式）：将抽象部分与它的实现部分分离，使它们都可以独立地变化。
+- [Composite](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Composite.js)（组合模式）：将对象组合成树形结构以表示“部分-整体”的层次结构。它使得客户对单个对象和复合对象的使用具有一致性。
+
 # 参考
 [es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)
 

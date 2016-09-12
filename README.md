@@ -1,6 +1,9 @@
 # ECMAScript-Design-Patterns
 使用es6实现的设计模式
 
+# Environment
+Nodejs v6.3.0+
+
 # 设计模式的原则(摘至百度百科)：
 - 模块应对扩展开放，而对修改关闭。
 - 如果调用的是父类的话，那么换成子类也完全可以运行。

@@ -17,19 +17,7 @@ Nodejs v6.3.0+
 - 结构型模式：适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
 - 行为型模式：模版方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式（Interpreter模式）、状态模式、策略模式、职责链模式(责任链模式)、访问者模式。
 
-# Detail
-按字典序排列简介如下。
-
-- Mediator（中介模式）：用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
-- Memento（备忘录模式）：在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到保存的状态。
-- Observer（观察者模式）：定义对象间的一种一对多的依赖关系,以便当一个对象的状态发生改变时,所有依赖于它的对象都得到通知并自动刷新。
-- State（状态模式）：允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它所属的类。
-- Strategy（策略模式）：定义一系列的算法,把它们一个个封装起来, 并且使它们可相互替换。本模式使得算法的变化可独立于使用它的客户。
-- Template Method（模板方法模式）：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
-- Visitor（访问者模式）：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
-
 # DemoCode:
-
 ##创建型模式：
 - [Signleton](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/Signleton.js)（单例模式）：保证一个类仅有一个实例，并提供一个访问它的全局访问点。 单例模式是最简单的设计模式之一，但是对于Java的开发者来说，它却有很多缺陷。在九月的专栏中，David Geary探讨了单例模式以及在面对多线程（multi-threading）、类装载器（class loaders）和序列化（serialization）时如何处理这些缺陷。  
 - [AbstractFactory](https://github.com/ryouaki/ECMAScript-Design-Patterns/blob/master/AbstractFactory.js)（抽象工厂模式）：提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。  
@@ -51,6 +39,13 @@ Nodejs v6.3.0+
 - [Command](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Command.js)（命令模式）：将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可取消的操作。
 - [Interpreter](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Interpreter.js)（解析器模式）：给定一个语言, 定义它的文法的一种表示，并定义一个解释器, 该解释器使用该表示来解释语言中的句子。
 - [Iterator](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Iterator.js)（迭代器模式）：提供一种方法顺序访问一个聚合对象中各个元素，而又不需暴露该对象的内部表示。
+- [Mediator](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Mediator.js)（中介模式）：用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+- [Memento](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Memento.js)（备忘录模式）：在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到保存的状态。
+- [Observer](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Observer.js)（观察者模式）：定义对象间的一种一对多的依赖关系,以便当一个对象的状态发生改变时,所有依赖于它的对象都得到通知并自动刷新。
+- [State](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/State.js)（状态模式）：允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它所属的类。
+- [Strategy](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Strategy.js)（策略模式）：定义一系列的算法,把它们一个个封装起来, 并且使它们可相互替换。本模式使得算法的变化可独立于使用它的客户。
+- [Template Method](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Template Method.js)（模板方法模式）：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+- [Visitor](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Visitor.js)（访问者模式）：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
 
 # 参考
 [es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)

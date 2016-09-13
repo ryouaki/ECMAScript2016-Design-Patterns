@@ -16,7 +16,7 @@ class Target {
     }
 
     request() {
-        console.log('Target.request created');
+        console.log('Target.request invoked');
     }
 }
 
@@ -31,7 +31,6 @@ class Adapter {
 }
 
 class AdapterImpl extends Adapter {
-
     constructor() {
         super()
         console.log('AdapterImpl Class created');

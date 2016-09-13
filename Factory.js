@@ -2,20 +2,20 @@
 
 class Product {
     constructor() {
-        console.log('Product created');
+        console.log('Product Class created');
     }
 }
 
 class ConcreteProduct extends Product {
     constructor() {
         super();
-        console.log('ConcreteProduct created');
+        console.log('ConcreteProduct Class created');
     }
 }
 
 class Creator {
     constructor() {
-        console.log('Creator created');
+        console.log('Creator Class created');
     }
 
     factoryMethod() {
@@ -33,7 +33,7 @@ class ConcreteCreator extends Creator {
 
     constructor() {
         super()
-        console.log('ConcreteCreator created')
+        console.log('ConcreteCreator Class created')
     }
 
     factoryMethod() {

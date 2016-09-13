@@ -50,41 +50,41 @@ class ConcreteFactory2 extends AbstractFactory {
 
 class AbstractProductA {
     constructor() {
-        console.log('AbstractProductA created');
+        console.log('AbstractProductA class created');
     }
 }
 
 class AbstractProductB {
     constructor() {
-        console.log('AbstractProductB created');
+        console.log('AbstractProductB class created');
     }
 }
 
 class ProductA1 extends AbstractProductA {
     constructor() {
         super();
-        console.log('ProductA1 created');
+        console.log('ProductA1 class created');
     }
 }
 
 class ProductA2 extends AbstractProductA {
     constructor() {
         super();
-        console.log('ProductA2 created');
+        console.log('ProductA2 class created');
     }
 }
 
 class ProductB1 extends AbstractProductB {
     constructor() {
         super();
-        console.log('ProductB1 created');
+        console.log('ProductB1 class created');
     }
 }
 
 class ProductB2 extends AbstractProductB {
     constructor() {
         super();
-        console.log('ProductB2 created');
+        console.log('ProductB2 class created');
     }
 }
 

@@ -2,7 +2,7 @@
 
 class Prototype {
     constructor(prototype) {
-        console.log("Prototype created");
+        console.log("Prototype Class created");
     }
 
     setFeature(key, val) {
@@ -10,7 +10,7 @@ class Prototype {
     }
 
     clone() {
-        console.log("Prototype.Clone created");
+        console.log("Prototype.clone invoked");
     }
 }
 
@@ -22,7 +22,7 @@ class ConcretePrototype1 extends Prototype {
     }
 
     clone() {
-        console.log('ConcretePrototype1.Clone function');
+        console.log('ConcretePrototype1.clone invoked');
         let clone = new ConcretePrototype1();
         let keys = Object.keys(this);
 

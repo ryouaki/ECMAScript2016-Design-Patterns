@@ -3,7 +3,7 @@
 class FlyweightFactory {
     constructor() {
         this.flyweights = {};
-        console.log('FlyweightFactory created');
+        console.log('FlyweightFactory Class created');
     }
 
     getFlyweight(key) {

@@ -32,8 +32,8 @@ class Creator {
 class ConcreteCreator extends Creator {
 
     constructor() {
-        super()
-        console.log('ConcreteCreator Class created')
+        super();
+        console.log('ConcreteCreator Class created');
     }
 
     factoryMethod() {

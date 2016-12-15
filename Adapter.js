@@ -37,7 +37,7 @@ class AdapterImpl extends Adapter {
     }
 
     request() {
-        console.log('AdapterImpl.request created');
+        console.log('AdapterImpl.request invoked');
         return this.specificRequest();
     }
 }

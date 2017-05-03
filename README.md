@@ -26,7 +26,7 @@ Nodejs v6.3.0+
 - [Proxy](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Proxy.js)（（代理模式）：为其他对象提供一个代理以控制对这个对象的访问。
 
 ##行为型模式：
-- [Chain of Responsibility](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Chain of Responsibility.js)（责任链模式）：为解除请求的发送者和接收者之间耦合，而使多个对象都有机会处理这个请求。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它。
+- [Chain of Responsibility](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Chain%20of%20Responsibility.js)（责任链模式）：为解除请求的发送者和接收者之间耦合，而使多个对象都有机会处理这个请求。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它。
 - [Command](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Command.js)（命令模式）：将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可取消的操作。
 - [Interpreter](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Interpreter.js)（解析器模式）：给定一个语言, 定义它的文法的一种表示，并定义一个解释器, 该解释器使用该表示来解释语言中的句子。
 - [Iterator](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Iterator.js)（迭代器模式）：提供一种方法顺序访问一个聚合对象中各个元素，而又不需暴露该对象的内部表示。

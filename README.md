@@ -35,7 +35,7 @@ Nodejs v6.3.0+
 - [Observer](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Observer.js)（观察者模式）：定义对象间的一种一对多的依赖关系,以便当一个对象的状态发生改变时,所有依赖于它的对象都得到通知并自动刷新。
 - [State](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/State.js)（状态模式）：允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它所属的类。
 - [Strategy](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Strategy.js)（策略模式）：定义一系列的算法,把它们一个个封装起来, 并且使它们可相互替换。本模式使得算法的变化可独立于使用它的客户。
-- [Template Method]('https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Template Method.js')（模板方法模式）：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+- [Template Method](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Template%20Method.js)（模板方法模式）：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 - [Visitor](https://github.com/ryouaki/ECMAScript2016-Design-Patterns/blob/master/Visitor.js)（访问者模式）：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
 
 # 参考

@@ -39,8 +39,5 @@ Nodejs v6.3.0+
 - [Template Method](src/Template%20Method.js)（模板方法模式）：定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。Template Method使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 - [Visitor](src/Visitor.js)（访问者模式）：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
 
-# 参考
-[es6-design-patterns](https://github.com/loredanacirstea/es6-design-patterns)
-
 # LICENCE
 MIT
